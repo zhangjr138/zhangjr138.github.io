@@ -22,9 +22,16 @@ textarea {
   }
 }
 @media screen and (min-width: 1472px) {
+  .is-3-column .container {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .is-2-column .container {
     max-width: 1152px;
     width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .is-1-column .container {
     max-width: 960px;
