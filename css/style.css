@@ -205,6 +205,9 @@ img.thumbnail {
 .timeline .media:first-child:last-child:after {
   top: calc(0.3rem + 9px);
 }
+.article .img-shadow {
+  box-shadow: 3px 2px 3px #ddd;
+}
 .article .article-meta {
   margin-bottom: 0.5rem !important;
 }
@@ -442,7 +445,7 @@ figure.highlight pre .line {
 }
 figure.highlight figcaption,
 figure.highlight .gutter {
-  background: rgba(200,200,200,0.15);
+  background: rgba(200,200,200,0.25);
 }
 figure.highlight figcaption {
   padding: 0.3em 0.75em;
