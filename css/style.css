@@ -205,9 +205,6 @@ img.thumbnail {
 .timeline .media:first-child:last-child:after {
   top: calc(0.3rem + 9px);
 }
-.article .img-shadow {
-  box-shadow: 3px 2px 3px #ddd;
-}
 .article .article-meta {
   margin-bottom: 0.5rem !important;
 }
@@ -219,6 +216,12 @@ img.thumbnail {
   max-width: 50%;
   font-size: 1.15rem;
   position: relative;
+}
+.article img {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.1);
+}
+.article img:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.1);
 }
 .post-copyright {
   font-size: 1rem;
@@ -427,6 +430,7 @@ figure.highlight {
   width: 100%;
   position: relative;
   margin: 1em 0 1em !important;
+  background: rgba(200,200,200,0.08);
 }
 figure.highlight pre,
 figure.highlight table tr:hover {
